@@ -16,9 +16,20 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
+        android:translationY="90sp"
         android:text="@string/app_name"
         android:textColor="@android:color/black"
-        android:textSize="40sp" />
+        android:textSize="75sp" />
+
+    <TextView
+        android:id="@id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/my_os"
+        android:textColor="@android:color/black"
+        android:textSize="15sp"
+        android:translationY="500sp" />
 
     <ImageView
         android:id="@+id/imageView"
